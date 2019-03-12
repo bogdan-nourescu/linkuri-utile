@@ -28,6 +28,7 @@ function draw() {
             spans += `<span>${lista[i].tags[j]}</span>`
         }
 
+        // language=HTML
         str += `
 				<tr>
 					<td class="name">
