@@ -1,0 +1,52 @@
+.deleteBtn {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("images/delete.png")
+}
+
+.editBtn {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("images/edit.png")
+}
+
+.description {
+    position: relative;
+}
+
+.description > * {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: absolute;
+    width: 100%;
+}
+
+.name {
+    white-space: nowrap;
+}
+
+.tags > span {
+    border: 1px solid orange;
+    border-radius: 15px;
+    padding: 1px 5px;
+    white-space: nowrap;
+}
+
+svg {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
