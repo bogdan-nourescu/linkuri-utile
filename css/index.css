@@ -35,7 +35,7 @@
 }
 
 .tags > span {
-    border: 1px solid orange;
+    border: 1px solid #543804;
     border-radius: 15px;
     padding: 1px 5px;
     white-space: nowrap;
